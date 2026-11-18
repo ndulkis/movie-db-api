@@ -1,0 +1,57 @@
+# Environment variables (Security critical)
+.env
+.env.*
+!.env.example
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry / Pipenv / UV / Hatch
+.python-version
+poetry.lock
+Pipfile.lock
+uv.lock
+
+# Testing & Coverage (Pytest, Coverage.py)
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking & Linting caches (Mypy, Ruff, Flake8)
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# Local databases (if using SQLite during development)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
